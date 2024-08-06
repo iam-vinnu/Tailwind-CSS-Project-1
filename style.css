@@ -5,9 +5,12 @@
 
 @layer base{
     body{
-        @apply font-body
+        @apply font-body;
     }
     h1,h2,h3{
-        @apply font-display font-medium  text-gray-800 
+        @apply font-display font-medium  text-gray-800 ;
+    }
+    .container{
+        @apply  px-6 py-12 max-w-7xl mt-16 mx-auto lg:px-8 lg:mt-32;
     }
 }
