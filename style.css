@@ -16,4 +16,10 @@
     .anchor-hover{
         @apply border-b border-dotted border-gray-300 hover:border-solid hover:border-gray-500;
     }
+    .gradient-hover-outer{
+        @apply  bg-slate-100  p-[1px]  hover:bg-gradient-to-br hover:from-red-300 via-purple-300 to-yellow-300;
+    }
+    .gradient-hover-inner{
+        @apply  bg-slate-50  hover:bg-gradient-to-br from-red-50 via-purple-50 to-yellow-50;
+    }
 }
